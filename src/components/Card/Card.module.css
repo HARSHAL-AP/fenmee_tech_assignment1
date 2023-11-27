@@ -1,0 +1,100 @@
+.card{
+    width: 95%;
+    margin: auto;
+    
+}
+.cardty1{
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+}
+.cardty2{
+    width: 95%;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row-reverse;
+}
+.cardty1>div,.cardty2>div{
+   width: 50%;
+
+}
+.cardty1>div>h1,.cardty2>div>h1{
+    width: 90%; 
+    margin-left: 5%;
+    font-size: 42px;
+    color: #FF3A2D;
+ }
+ .cardty1>div>p, .cardty2>div>p{
+    width: 90%;
+    font-size: 16px;
+    margin-left: 5%;
+    text-align: justify;
+ 
+ }
+ .cardty1>div>button, .cardty2>div>button{
+    width:120px;
+    height:41px;
+    background-color: #FF3A2D;
+    color: #fff;
+   border: 0;
+   border-radius: 3px;
+   margin-top: 20px;
+   margin-left: 5%;
+ 
+ }
+.cardty1>img,.cardty2>img{
+    width: 50%;
+    
+ }
+
+ @media screen and (max-width: 780px) {
+    .cardty1,.cardty2{
+        width: 100%;
+        margin: auto;
+        margin-top: 50px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column-reverse;
+    }
+    .cardty1>div,.cardty2>div{
+       width: 95%;
+       margin: auto;
+    }
+    .cardty1>div>h1,.cardty2>div>h1{
+        width: 90%; 
+        font-size: 42px;
+        color: #FF3A2D;
+     }
+     .cardty1>div>p,.cardty2>div>p{
+        width: 95%;
+        font-size: 16px;
+        text-align: justify;
+     
+     }
+     .cardty1>div>button,.cardty2>div>button{
+        width:120px;
+        height:41px;
+        background-color: #FF3A2D;
+        color: #fff;
+       border: 0;
+       border-radius: 3px;
+       margin-top: 20px;
+     
+     }
+    .cardty1>img,.cardty2>img{
+        width:90%;
+        margin: auto;
+     }
+
+
+
+
+ }

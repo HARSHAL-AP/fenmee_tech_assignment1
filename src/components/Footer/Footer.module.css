@@ -1,0 +1,34 @@
+.footer{
+    width: 100%;
+    height: 400px;
+    background-color:#081528;
+    margin-top: 50px;
+    text-align: center;
+}
+.ftlogo{
+    max-width:140px;
+    margin-top:50px;
+}
+.footerlinks{
+    width: 100%;
+    margin: auto;
+    margin-top: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: #ffffff;
+}
+.footer>p{
+    color: #4e5ba1;
+}
+.socialicons{
+    width: 200px;
+    margin: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 25px;
+    color: #ffffff;
+}
